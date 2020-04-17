@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -162,15 +162,15 @@
 <library>
 <packages>
 <package name="NEOPIX_12">
-<circle x="-73.4379625" y="-235.46360625" radius="11.684" width="0.000003125" layer="20"/>
-<wire x1="-91.233778125" y1="-230.72850625" x2="-78.1730625" y2="-253.259421875" width="0.000003125" layer="20" curve="90"/>
-<wire x1="-78.1730625" y1="-253.259421875" x2="-55.642146875" y2="-240.19870625" width="0.000003125" layer="20" curve="90"/>
-<wire x1="-55.642146875" y1="-240.19870625" x2="-68.7028625" y2="-217.66779375" width="0.000003125" layer="20" curve="90"/>
-<wire x1="-68.7028625" y1="-217.66779375" x2="-91.233778125" y2="-230.72850625" width="0.000003125" layer="20" curve="90"/>
-<pad name="1" x="-82.1" y="-220.5" drill="0.6" shape="square"/>
-<pad name="4" x="-64.85" y="-220.5" drill="0.6" shape="square"/>
-<pad name="2" x="-82" y="-250.4" drill="0.6" shape="square"/>
-<pad name="3" x="-64.8" y="-250.4" drill="0.6" shape="square"/>
+<circle x="0.2220375" y="-0.51360625" radius="11.684" width="0.000003125" layer="20"/>
+<wire x1="-17.573778125" y1="4.22149375" x2="-4.5130625" y2="-18.309421875" width="0.000003125" layer="20" curve="90"/>
+<wire x1="-4.5130625" y1="-18.309421875" x2="18.017853125" y2="-5.24870625" width="0.000003125" layer="20" curve="90"/>
+<wire x1="18.017853125" y1="-5.24870625" x2="4.9571375" y2="17.28220625" width="0.000003125" layer="20" curve="90"/>
+<wire x1="4.9571375" y1="17.28220625" x2="-17.573778125" y2="4.22149375" width="0.000003125" layer="20" curve="90"/>
+<pad name="1" x="-8.44" y="14.45" drill="0.6" shape="square"/>
+<pad name="4" x="8.81" y="14.45" drill="0.6" shape="square"/>
+<pad name="2" x="-8.34" y="-15.45" drill="0.6" shape="square"/>
+<pad name="3" x="8.86" y="-15.45" drill="0.6" shape="square"/>
 </package>
 </packages>
 <symbols>
